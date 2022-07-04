@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">DANDI</string>
+    <string name="app_name2">늦지말고, 단디</string>
     <string name="help"><b><u>도움이 필요하세요? | About 단디</u></b></string>
     <string name="beginning">&lt;  처음으로</string>
     <string name="textview6"><b>돌아온걸 환영해요 😄</b></string>
@@ -34,4 +35,16 @@
     <string name="alarm">알림 유무</string>
     <string name="repeat">반복 알림</string>
     <string name="setsound">알림음 설정</string>
+    <string name="info_confirm">등록 정보 확인</string>
+    <string name="info_confirm2">기록된 사항들을 요약해서 보여줄게요. \n 잘못된 부분이 있으면 돌아가 수정해주세요.</string>
+    <string name="info_confirm3">알림을 끄거나 팝업에 반응하는 행위를 통해\n 실제 준비 과정을 추적할 예정입니다. \n 관련 정보는 여기서 확인해주세요.</string>
+    <string name="home_m_sched">이번 달 월간 스케줄</string>
+    <string name="home_click">클릭 시 자세히 볼 수 있어요</string>
+    <string name="quick_sched">일정 빠른 생성</string>
+    <string name="man_sched">일정 관리</string>
+    <string name="man_routin">루틴 관리</string>
+    <string name="man_alarm">알람 관리</string>
+    <string name="recent">최근 기록</string>
+
+
 </resources>
