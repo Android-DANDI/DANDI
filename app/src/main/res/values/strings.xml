@@ -45,6 +45,9 @@
     <string name="man_routin">루틴 관리</string>
     <string name="man_alarm">알람 관리</string>
     <string name="recent">최근 기록</string>
-
-
+    <string name="man_sched_text">일정을 확인하고 관리해요</string>
+    <string name="daily">일간</string>
+    <string name="weekly">주간</string>
+    <string name="monthly">월간</string>
+    <string name="now_add">지금 일정을 추가해보세요</string>
 </resources>
