@@ -51,4 +51,6 @@
     <string name="monthly">월간</string>
     <string name="now_add">지금 일정을 추가해보세요</string>
     <string name="date_example">2022년 7월</string>
+    <string name="preparation_setting">준비 과정 설정</string>
+    <string name="preparation_setting2">지금까지의 경험을 토대로 \n 외출 준비 과정과 소요 시간을 설정하세요. \n 목록에서 선택하여 루틴으로 연결하거나 \n 마음대로 작성할 수 있어요. \n 준비된 루틴에는 개성있는 알림도 있어요.</string>
 </resources>

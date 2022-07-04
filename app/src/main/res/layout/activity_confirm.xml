@@ -46,8 +46,8 @@
         android:background="@drawable/bg_custom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="54dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="54dp">
 
         <TextView
             android:id="@+id/textView24"
@@ -67,9 +67,9 @@
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="300dp"
             android:layout_height="10dp"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="101dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="101dp" />
 
         <ProgressBar
             android:id="@+id/progressBar7"
@@ -111,9 +111,9 @@
             android:layout_height="wrap_content"
             android:background="#EADD6D"
             app:srcCompat="@android:drawable/stat_sys_warning"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="576dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="576dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
