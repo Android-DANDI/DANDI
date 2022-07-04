@@ -63,7 +63,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="145dp"
-            tools:layout_editor_absoluteY="234dp"
+            tools:layout_editor_absoluteY="252dp"
             tools:textColor="@color/white" />
 
         <ProgressBar
@@ -71,6 +71,7 @@
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="300dp"
             android:layout_height="10dp"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="60dp"
             tools:layout_editor_absoluteY="100dp" />
 
@@ -79,7 +80,7 @@
             android:layout_width="304dp"
             android:layout_height="303dp"
             tools:layout_editor_absoluteX="58dp"
-            tools:layout_editor_absoluteY="282dp" />
+            tools:layout_editor_absoluteY="292dp" />
 
         <Button
             android:id="@+id/button6"
@@ -88,7 +89,7 @@
             android:background="@drawable/bg_grey_button"
             android:text="@string/right"
             tools:layout_editor_absoluteX="275dp"
-            tools:layout_editor_absoluteY="592dp" />
+            tools:layout_editor_absoluteY="595dp" />
 
         <Button
             android:id="@+id/button7"
@@ -97,7 +98,17 @@
             android:background="@drawable/bg_grey_button"
             android:text="@string/left"
             tools:layout_editor_absoluteX="110dp"
-            tools:layout_editor_absoluteY="592dp" />
+            tools:layout_editor_absoluteY="595dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar7"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="75dp"
+            android:layout_height="7dp"
+            android:background="#3F51B5"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="100dp"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <TextView
