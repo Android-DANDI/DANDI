@@ -53,4 +53,12 @@
     <string name="date_example">2022년 7월</string>
     <string name="preparation_setting">준비 과정 설정</string>
     <string name="preparation_setting2">지금까지의 경험을 토대로 \n 외출 준비 과정과 소요 시간을 설정하세요. \n 목록에서 선택하여 루틴으로 연결하거나 \n 마음대로 작성할 수 있어요. \n 준비된 루틴에는 개성있는 알림도 있어요.</string>
+    <string name="recent_record">최근 기록</string>
+    <string name="recent_info">지난 일정들의 정보를 확인하고 최적의 소요시간을 찾아보세요</string>
+    <string name="click_res">클릭 시 해당 일정의 결과를 표시해요</string>
+    <string name="info_routin">루틴 정보 바로가기></string>
+    <string name="past_sched">지난 일정</string>
+    <string name="shortcuts">바로가기></string>
+    <string name="stats_service">통계 서비스</string>
+    <string name="stats_service2">지금까지 데이터로 최적의 소요시간을 탐색하세요</string>
 </resources>

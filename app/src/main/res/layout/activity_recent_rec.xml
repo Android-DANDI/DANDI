@@ -17,7 +17,8 @@
         android:textColor="#FFFCFC"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView38"
@@ -46,18 +47,41 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.981" >
 
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recent_record"
+            android:textColor="#474343"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recent_info"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="82dp" />
+
         <Button
             android:id="@+id/button15"
             android:layout_width="325dp"
             android:layout_height="42dp"
             android:layout_marginBottom="22dp"
             android:background="@drawable/bg_custom_button"
-            android:text="지난 일정"
+            android:text="@string/past_sched"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/button19"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck"
             tools:layout_editor_absoluteX="48dp" />
 
         <Button
@@ -66,12 +90,12 @@
             android:layout_height="42dp"
             android:layout_marginBottom="22dp"
             android:background="@drawable/bg_custom_button"
-            android:text="지난 일정"
+            android:text="@string/past_sched"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/button20"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
             tools:layout_editor_absoluteX="47dp" />
 
         <Button
@@ -80,37 +104,13 @@
             android:layout_height="42dp"
             android:layout_marginBottom="22dp"
             android:background="@drawable/bg_custom_button"
-            android:text="지난 일정"
+            android:text="@string/past_sched"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textView43"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
             tools:layout_editor_absoluteX="47dp" />
-
-        <TextView
-            android:id="@+id/textView39"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="최근 기록"
-            android:textColor="#474343"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="34dp"
-            tools:ignore="MissingConstraints" />
-
-        <TextView
-            android:id="@+id/textView40"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="지난 일정들의 정보를 확인하고 최적의 소요시간을 찾아보세요 "
-            android:textColor="#474343"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="82dp"
-            tools:ignore="MissingConstraints" />
 
         <ProgressBar
             android:id="@+id/progressBar8"
@@ -126,7 +126,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="클릭 시 해당 일정의 결과를 표시해요"
+            android:text="@string/click_res"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintBaseline_toTopOf="parent"
@@ -139,46 +139,46 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="루틴 정보 바로가기>"
+            android:text="@string/info_routin"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintBottom_toTopOf="@+id/button15"
-            tools:layout_editor_absoluteX="272dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="272dp" />
 
         <TextView
             android:id="@+id/textView43"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="통계 서비스"
+            android:text="@string/stats_service"
             android:textColor="#2196F3"
             android:textSize="22sp"
             app:layout_constraintBottom_toTopOf="@+id/textView44"
-            tools:layout_editor_absoluteX="26dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="26dp" />
 
         <TextView
             android:id="@+id/textView44"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="지금까지 데이터로 최적의 소요시간을 탐색하세요"
+            android:text="@string/stats_service2"
             android:textColor="@color/black"
             android:textSize="12sp"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="395dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="395dp" />
 
         <TextView
             android:id="@+id/textView45"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="바로가기>"
+            android:text="@string/shortcuts"
             android:textColor="@color/black"
             android:textSize="12sp"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="321dp"
-            tools:layout_editor_absoluteY="395dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="395dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
