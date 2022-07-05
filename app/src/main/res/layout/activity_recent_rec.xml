@@ -12,12 +12,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="16dp"
         android:text="@string/app_name2"
         android:textColor="#FFFCFC"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -28,10 +32,12 @@
         android:text="@string/back"
         android:textColor="#FFFCFC"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="TextContrastCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -45,7 +51,7 @@
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.981" >
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/textView39"
@@ -55,9 +61,13 @@
             android:textColor="#474343"
             android:textSize="30sp"
             android:textStyle="bold"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="34dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.055"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView40"
@@ -66,9 +76,58 @@
             android:text="@string/recent_info"
             android:textColor="@color/black"
             android:textSize="12sp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="82dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.245"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.125"
+            tools:ignore="MissingConstraints" />
+
+        <ProgressBar
+            android:id="@+id/progressBar8"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.15"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/click_res"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.117"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.178"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/info_routin"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.924"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.178"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/button15"
@@ -80,9 +139,13 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/button19"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck"
-            tools:layout_editor_absoluteX="48dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.253"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck" />
 
         <Button
             android:id="@+id/button19"
@@ -94,9 +157,13 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/button20"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-            tools:layout_editor_absoluteX="47dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck" />
 
         <Button
             android:id="@+id/button20"
@@ -108,43 +175,13 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/textView43"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-            tools:layout_editor_absoluteX="47dp" />
-
-        <ProgressBar
-            android:id="@+id/progressBar8"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="380dp"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="20dp"
-            tools:layout_editor_absoluteY="108dp" />
-
-        <TextView
-            android:id="@+id/textView41"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/click_res"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBaseline_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/button15"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="26dp" />
-
-        <TextView
-            android:id="@+id/textView42"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/info_routin"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toTopOf="@+id/button15"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="272dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.362"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck" />
 
         <TextView
             android:id="@+id/textView43"
@@ -154,9 +191,13 @@
             android:text="@string/stats_service"
             android:textColor="#2196F3"
             android:textSize="22sp"
-            app:layout_constraintBottom_toTopOf="@+id/textView44"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="26dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.556"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView44"
@@ -165,9 +206,13 @@
             android:text="@string/stats_service2"
             android:textColor="@color/black"
             android:textSize="12sp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="395dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.159"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView45"
@@ -176,9 +221,13 @@
             android:text="@string/shortcuts"
             android:textColor="@color/black"
             android:textSize="12sp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="321dp"
-            tools:layout_editor_absoluteY="395dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607"
+            tools:ignore="MissingConstraints" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

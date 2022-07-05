@@ -61,4 +61,6 @@
     <string name="shortcuts">바로가기></string>
     <string name="stats_service">통계 서비스</string>
     <string name="stats_service2">지금까지 데이터로 최적의 소요시간을 탐색하세요</string>
+    <string name="info_man_routin">저장된 루틴을 확인하고 관리해요</string>
+    <string name="saved_routin">저장된 루틴</string>
 </resources>
