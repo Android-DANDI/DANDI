@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4">
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/next"
+        android:textColor="#FFFCFC"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textColor="#FFFCFC"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="420dp"
+        android:layout_height="676dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/bg_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ProgressBar
+            android:id="@+id/progressBar11"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.153"
+            tools:ignore="MissingConstraints" />
+
+        <ProgressBar
+            android:id="@+id/progressBar12"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="225dp"
+            android:layout_height="7dp"
+            android:background="#3F51B5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.307"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.152"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="347dp"
+            android:layout_height="132dp"
+            android:gravity="center"
+            android:text="@string/info_set_ready"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.205"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="187dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_custom_button"
+            android:text="@string/set_routin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.415"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
+            tools:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/set_ready"
+            android:textColor="#474343"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.078"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:scrollbarFadeDuration="0"
+            android:scrollbarSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.661"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edge"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="4sp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/set_routin_color1"
+                    android:text="샤워"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/set_routin_color1"
+                    android:text="가벼운 세면"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/set_routin_color3"
+                    android:text="아침 식사"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/set_routin_color3"
+                    android:text="약 복용"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/set_routin_color2"
+                    android:text="화장품"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/set_routin_color2"
+                    android:text="옷 갈아입기"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

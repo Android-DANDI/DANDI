@@ -61,7 +61,7 @@
             android:textColor="@color/black"
             android:textSize="17sp"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteX="95dp"
             tools:layout_editor_absoluteY="122dp" />
 
         <TextView
