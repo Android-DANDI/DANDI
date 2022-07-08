@@ -66,4 +66,5 @@
     <string name="set_ready">준비 과정 설정</string>
     <string name="info_set_ready">지금까지의 경험을 토대로\n외출 준비 과정과 소요시간을 설정하세요.\n목록에서 선택하여 루틴으로 연결하거나\n마음대로 작성할 수 있어요.\n준비된 루틴에는 개성있는 알림도 있어요.</string>
     <string name="set_routin">루틴 설정</string>
+    <string name="go_home">&lt; 홈으로</string>
 </resources>

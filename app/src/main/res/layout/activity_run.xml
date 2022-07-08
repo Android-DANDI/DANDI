@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_round3"
+        android:text="전체취소"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_round3"
+        android:text="일시정지"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="413dp"
+        android:layout_height="331dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/bg_round4"
+        android:elevation="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_round3"
+        android:text="다음"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="늦지말고, 단디!"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오늘도"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -89,7 +89,7 @@
             android:id="@+id/calendarView"
             android:layout_width="304dp"
             android:layout_height="303dp"
-            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteX="60dp"
             tools:layout_editor_absoluteY="292dp" />
 
         <Button
