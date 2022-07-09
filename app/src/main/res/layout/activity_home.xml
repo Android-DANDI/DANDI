@@ -9,43 +9,34 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout"
-        android:layout_width="320dp"
-        android:layout_height="298dp"
+        android:layout_width="326dp"
+        android:layout_height="349dp"
         android:layout_margin="20dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/bg_custom"
         android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112"
         tools:ignore="MissingConstraints">
 
         <CalendarView
             android:id="@+id/calendarView2"
-            android:layout_width="215dp"
-            android:layout_height="0dp"
+            android:layout_width="212dp"
+            android:layout_height="280dp"
             android:layout_marginStart="56dp"
             android:layout_marginEnd="56dp"
             android:layout_marginBottom="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.428"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView21" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/home_m_sched"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.871" />
 
         <TextView
             android:id="@+id/textView21"
@@ -54,9 +45,13 @@
             android:text="@string/home_click"
             android:textColor="@color/black"
             android:textSize="12sp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="43dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.084"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.126"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/button8"
@@ -66,17 +61,37 @@
             android:text="@string/quick_sched"
             android:textSize="11sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"
             tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-            tools:layout_editor_absoluteX="214dp"
-            tools:layout_editor_absoluteY="16dp"
             tools:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_m_sched"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
         android:id="@+id/button18"
-        android:layout_width="150dp"
-        android:layout_height="140dp"
+        android:layout_width="154dp"
+        android:layout_height="111dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/bg_round2"
         android:elevation="15dp"
@@ -85,15 +100,20 @@
         android:text="@string/man_routin"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteX="216dp"
         tools:textColor="@color/white" />
 
     <Button
         android:id="@+id/button17"
-        android:layout_width="150dp"
-        android:layout_height="140dp"
+        android:layout_width="154dp"
+        android:layout_height="111dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/bg_round2"
         android:elevation="15dp"
@@ -102,9 +122,14 @@
         android:text="@string/man_sched"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteX="45dp"
         tools:textColor="@color/white" />
 
     <Button
@@ -118,11 +143,13 @@
         android:text="@string/recent"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteY="624dp"
         tools:textColor="@color/white" />
 
     <Button
@@ -136,11 +163,13 @@
         android:text="@string/man_alarm"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteY="557dp"
         tools:textColor="@color/white" />
 
     <TextView
@@ -150,8 +179,12 @@
         android:text="@string/app_name2"
         android:textColor="#2196F3"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

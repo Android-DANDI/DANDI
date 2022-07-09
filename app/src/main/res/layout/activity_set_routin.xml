@@ -213,6 +213,17 @@
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/set_routin_color2"
+                    android:text="머리 손질"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
             </LinearLayout>
         </ScrollView>
 
