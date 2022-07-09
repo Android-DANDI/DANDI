@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout"
         android:layout_width="326dp"
-        android:layout_height="349dp"
+        android:layout_height="355dp"
         android:layout_margin="20dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
@@ -26,17 +26,18 @@
 
         <CalendarView
             android:id="@+id/calendarView2"
-            android:layout_width="212dp"
-            android:layout_height="280dp"
+            android:layout_width="211dp"
+            android:layout_height="300dp"
             android:layout_marginStart="56dp"
             android:layout_marginEnd="56dp"
             android:layout_marginBottom="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView21"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.871" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/textView21"
@@ -91,7 +92,7 @@
     <Button
         android:id="@+id/button18"
         android:layout_width="154dp"
-        android:layout_height="111dp"
+        android:layout_height="100dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/bg_round2"
         android:elevation="15dp"
@@ -113,7 +114,7 @@
     <Button
         android:id="@+id/button17"
         android:layout_width="154dp"
-        android:layout_height="111dp"
+        android:layout_height="100dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/bg_round2"
         android:elevation="15dp"
