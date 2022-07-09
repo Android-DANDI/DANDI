@@ -14,8 +14,12 @@
         android:text="전체취소"
         android:textColor="@color/white"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="629dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.910" />
 
     <Button
         android:id="@+id/button30"
@@ -25,8 +29,12 @@
         android:text="일시정지"
         android:textColor="@color/white"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="572dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.830" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
@@ -49,8 +57,12 @@
         android:text="다음"
         android:textColor="@color/white"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="513dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.750" />
 
     <TextView
         android:id="@+id/textView55"
@@ -59,8 +71,12 @@
         android:text="늦지말고, 단디!"
         android:textColor="#03A9F4"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.624"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
 
     <TextView
         android:id="@+id/textView51"
@@ -68,7 +84,11 @@
         android:layout_height="wrap_content"
         android:text="오늘도"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
