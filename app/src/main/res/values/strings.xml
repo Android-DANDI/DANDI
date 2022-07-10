@@ -5,7 +5,6 @@
     <string name="beginning">&lt;  처음으로</string>
     <string name="textview6"><b>돌아온걸 환영해요 😄</b></string>
     <string name="textview7"><h3><b>로그인</b></h3></string>
-    <string name="ID"><h3><b>ID</b></h3></string>
     <string name="PW"><h3><b>Password</b></h3></string>
     <string name="start"><h3><b>시작하기</b></h3></string>
     <string name="autoLogin"><h3><b>자동 로그인</b></h3></string>
