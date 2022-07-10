@@ -226,7 +226,7 @@
         android:id="@+id/textView59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="< 홈으로"
+        android:text="@string/go_home"
         android:layout_marginTop="16dp"
         app:layout_constraintHorizontal_bias="0.955"
         android:textColor="#FFFFFF"
