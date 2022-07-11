@@ -3,12 +3,13 @@ package com.example.practice
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.practice.databinding.ActivityLogBinding
+import com.example.practice.databinding.ActivitySetTimeBinding
 
 class set_timeActivity : AppCompatActivity() {
-    lateinit var binding: ActivityLogBinding
+    lateinit var binding: ActivitySetTimeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLogBinding.inflate(layoutInflater)
+        binding = ActivitySetTimeBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
